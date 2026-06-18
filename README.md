@@ -1,7 +1,7 @@
 
 # Veritas//AI — ATS Resume Scanner & AI Coach
 
-Veritas//AI is a modern, microservice-based web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). The application parses a user's resume (PDF) and compares it against a specific job description using a hybrid matching approach (Lexical ML + Generative AI) to provide accurate scores and actionable feedback.
+Veritas//AI is a modern web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). The application parses a user's resume (PDF) and compares it against a specific job description using a hybrid matching approach (Lexical ML + Generative AI) to provide accurate scores and actionable feedback.
 
 ## 🚀 Live Demo
 * **Frontend:** [https://ai-veritas-job.vercel.app/]
@@ -10,8 +10,6 @@ Veritas//AI is a modern, microservice-based web application designed to help job
 ---
 
 ## 🛠️ Architecture & Tech Stack
-
-The project follows a decoupled, microservice-ready architecture to ensure high performance and independent scaling:
 
 * **Backend:** Built with **Python** and **FastAPI** (ASGI), leveraging asynchronous routing to handle file processing and concurrent external API calls without blocking.
 * **Frontend:** A responsive, fast React-based user interface deployed via **Vercel CDN**.
@@ -30,7 +28,7 @@ The project follows a decoupled, microservice-ready architecture to ensure high 
 
 ---
 
-## 🛡️ Production-Ready Features
+## 🛡️ Notable Features
 
 * **Fault Tolerance (Retry Pattern):** Implemented an automated retry mechanism for external API calls to gracefully handle transient network errors or Google API rate limits (`503 Service Unavailable`).
 * **Performance Optimization:** The frontend utilizes an optimized loading sequence that keeps the client UI responsive and smoothly manages long-polling states during heavy AI generation.
@@ -42,7 +40,7 @@ The project follows a decoupled, microservice-ready architecture to ensure high 
 This project was developed as a collaborative university initiative by team **Algorteam**. 
 
 **My Role & Core Contributions:**
-* **Backend Development:** Designed and implemented the server-side architecture using **FastAPI**.
+* **Backend Development:** Integrated the ML pipeline into the backend and configured deployment.
 * **AI & ML Pipeline:** Built the hybrid analysis engine, combining **scikit-learn (TF-IDF)** for lexical matching and **Google Gemini 2.5 Flash** for structured feedback generation.
 * **DevOps & Infrastructure:** Configured environment variables, handled cross-origin resource sharing (**CORS**), and deployed the production-ready backend service to **Render**.
 * **API Integration:** Collaborated closely with the frontend developer to seamlessly connect their React UI with the backend API endpoints and optimize the client-side loading sequence.
