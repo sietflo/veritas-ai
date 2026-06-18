@@ -1,0 +1,14 @@
+# --- PDF Parsing ---
+pdfplumber>=0.11.9
+
+# --- Machine Learning & Math ---
+scikit-learn>=1.8.0
+joblib>=1.4.2
+
+# --- AI & Environment ---
+google-genai>=2.4.0
+python-dotenv>=1.2.2
+# --- Web ---
+uvicorn
+fastapi
+python-multipart
