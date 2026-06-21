@@ -1,7 +1,10 @@
 
+
 # Veritas//AI — ATS Resume Scanner & AI Coach
 
 Veritas//AI is a modern web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). The application parses a user's resume (PDF) and compares it against a specific job description using a hybrid matching approach (Lexical ML + Generative AI) to provide accurate scores and actionable feedback.
+
+<img width="2557" height="1307" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0aa54c00-4e0f-4462-8d70-190aaed55c58" />
 
 ## 🚀 Live Demo
 * **Frontend:** [https://ai-veritas-job.vercel.app/]
